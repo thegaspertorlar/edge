@@ -352,7 +352,7 @@ function finish(win, reason) {
             ? start(level.index + 1)
             : showLevels()
           : start(level.index);
-      $("resultHome").onclick = home();
+      $("resultHome").onclick = home;
     },
     win ? 650 : 280,
   );
